@@ -27,6 +27,16 @@
         <label for=" years"> Years of experience: </label>
         <input id="years" name="years" type="number" step="1">
     </form>
+
+    <form action="/example.html" method="POST">
+        <label for="payment">Credit Card Number</label>
+        <br>
+        <input type="text" id="payment" name="payment" required pattern="[0-9]{14,16}">
+        <input type="submit" value="Submit">
+
+    </form>
+
+
 </body>
 
 </html>
